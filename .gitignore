@@ -1,0 +1,17 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local source data and generated outputs
+data/raw/*
+!data/raw/.gitkeep
+data/cleaned/*
+!data/cleaned/.gitkeep
+sql/retail.db
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
